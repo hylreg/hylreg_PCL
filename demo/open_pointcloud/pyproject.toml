@@ -1,0 +1,16 @@
+[project]
+name = "pcl-open-pointcloud"
+version = "0.1.0"
+description = "打开点云并显示 demo"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "open3d>=0.18.0",
+]
+
+[project.scripts]
+open-pointcloud = "main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

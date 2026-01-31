@@ -1,0 +1,14 @@
+[project]
+name = "hylreg-pcl-workspace"
+version = "0.1.0"
+description = "PCL Demo 工作区：包含多个子项目"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.uv.workspace]
+members = ["demo/*"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
